@@ -18,7 +18,7 @@ function calculatePlacement() {
             } else if (actMath >= 24 && actMath <= 25) {
                 result = 'MATH 101, MATH 102, or Eligible for MATH 101 Credit Exam. Passing the 101 redit exam will place you in Pre-Calculus.';
             } else if (actMath >= 26) {
-                result = 'Credit granted MATH 101 and eligible to take in MATH 112, MATH 125, MATH 130, MATH 240 (Pre-Calculus), or STAT 200.';
+                result = 'Credit granted MATH 101 and eligible to in MATH 112, MATH 125, MATH 130, MATH 240 (Pre-Calculus), or STAT 200.';
             }
         } else if (satMath) {
             if (satMath < 510) {
@@ -30,7 +30,7 @@ function calculatePlacement() {
             } else if (satMath >= 580 && satMath <= 600) {
                 result = 'MATH 101, MATH 102, or Eligible for MATH 101 Credit Exam.  Passing the 101 redit exam will place you in Pre-Calculus.';
             } else if (satMath >= 610) {
-                result = 'Credit granted MATH 101 and eligible to take in MATH 112, MATH 125, MATH 130, MATH 240 (Pre-Calculus), or STAT 200.';
+                result = 'Credit granted MATH 101 and eligible to in MATH 112, MATH 125, MATH 130, MATH 240 (Pre-Calculus), or STAT 200.';
             }
         } else if (accuplacerQras) {
             if (accuplacerQras >= 200 && accuplacerQras <= 262) {

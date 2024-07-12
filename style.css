@@ -75,6 +75,13 @@ button:hover {
     display: none;
 }
 
+.field-info{
+    font-size: 14px;
+    color: #8a8a8a;
+    font-style: italic;
+    margin: 6px auto;
+}
+
 
 @media (max-width: 768px) {
     .container {
